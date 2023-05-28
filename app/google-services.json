@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482556064313",
+    "project_id": "newsmobile-2752c",
+    "storage_bucket": "newsmobile-2752c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482556064313:android:748a5bdf74473d511ed3e8",
+        "android_client_info": {
+          "package_name": "com.proje2dersi.mobilenews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482556064313-pb57tbrmiq8k6ease8b7a659dvmfgagj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4ArCQoPUig2GYzpmMh7hVzqYjPFTiJmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482556064313-pb57tbrmiq8k6ease8b7a659dvmfgagj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

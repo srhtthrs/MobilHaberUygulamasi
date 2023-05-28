@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+   <!-- <item
+        android:id="@+id/general"
+        android:title="General">
+    </item>
+
+    <item
+        android:id="@+id/business"
+        android:title="Business">
+    </item>
+
+
+
+    <item
+        android:id="@+id/entertainment"
+        android:title="Entertainment">
+    </item>
+
+    <item
+        android:id="@+id/science"
+        android:title="Science">
+    </item>
+    -->
+
+    <item
+        android:id="@+id/editorsnews"
+        android:title="Editor's News">
+    </item>
+
+    <item
+        android:id="@+id/newsturkey"
+        android:title="News">
+    </item>
+
+
+
+    <item
+        android:id="@+id/entertainment"
+        android:title="Entertainment">
+    </item>
+
+
+    <item
+        android:id="@+id/newsandroid"
+        android:title="Technology">
+    </item>
+
+ <item
+     android:id="@+id/sport"
+     android:title="Sport">
+ </item>
+
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/editors"
+        android:title="Log In">
+    </item>
+
+</menu>

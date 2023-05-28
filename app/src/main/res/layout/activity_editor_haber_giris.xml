@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".EditorHaberGirisActivity"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Spinner
+        android:id="@+id/spinnerNewsType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+
+
+
+        android:background="@drawable/border_12"
+
+        android:backgroundTint="#5176BC"
+        android:popupBackground="#E54C75B2"
+        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <EditText
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_8"
+        android:padding="5dp"
+        android:textColor="#000000"
+
+        android:textColorHint="#5176BC"
+        android:hint="Enter Title"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerNewsType"
+        tools:layout_editor_absoluteX="5dp"
+        android:layout_marginTop="2dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageViewAdd"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:onClick="SelectImage"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:srcCompat="@drawable/ic_baseline_add_photo_alternate_24"
+        tools:layout_editor_absoluteX="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/border_9"
+
+
+        />
+
+    <EditText
+        android:id="@+id/textMultilineTex"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/border_8"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Comment"
+        android:textColorHint="#5176BC"
+        android:layout_marginTop="2dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAdd"
+        tools:layout_editor_absoluteX="5dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:onClick="AddClick"
+        android:text="Ekle"
+        app:layout_constraintTop_toBottomOf="@+id/textMultilineTex"
+        tools:layout_editor_absoluteX="5dp"
+        android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
